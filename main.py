@@ -16,6 +16,7 @@ load_dotenv()  # take environment variables from .env.
 
 TOKEN = os.getenv('TWIT_TOKEN')
 
+
 header = {"Authorization" : f"Bearer {TOKEN}"}
 
 #get fat string with 100 results
